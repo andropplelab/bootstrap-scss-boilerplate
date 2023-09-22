@@ -1,0 +1,11 @@
+.header {
+    height: $header-height;
+
+
+    @include media-breakpoint-down(lg) {
+        .header {
+            height: calc($header-height + 10px);
+            background: red;
+        }
+    }
+}

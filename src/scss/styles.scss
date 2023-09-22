@@ -1,0 +1,21 @@
+// import font
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/functions";
+@import 'variables';
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/bootstrap";
+
+@import "mixin";
+@import 'global/global';
+
+// icon fonts
+@import 'global/amazing-neo';
+@import 'global/amazing-neo-brands';
+
+// components
+@import 'components/header';
+
+// pages
+// @import 'pages/index;
